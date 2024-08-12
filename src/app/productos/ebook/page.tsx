@@ -1,5 +1,10 @@
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Tiempo Inteligente eBook',
+}
 
 export default function Page() {
     return (
