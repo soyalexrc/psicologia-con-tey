@@ -241,7 +241,7 @@ export default function Page() {
                         inspiración diaria.</p>
 
                     <Link href="https://www.instagram.com/psicologiacontey" target="_blank">
-                        <Button className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] animate-glow">Sigueme en @psicologiacontey</Button>
+                        <Button className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] animate-glow">@psicologiacontey</Button>
                     </Link>
 
                 </div>
