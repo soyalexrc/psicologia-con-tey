@@ -134,20 +134,26 @@ export default function Page() {
                             ¿Te has sentido abrumado por la cantidad de tareas pendientes y la falta de tiempo para
                             disfrutar de lo que realmente importa?. En un mundo donde las demandas parecen no tener fin,
                             gestionar tu tiempo de manera efectiva es la clave para encontrar el equilibrio entre
-                            productividad y bienestar personal. <br/>
+                            productividad y bienestar personal.
+                        </p>
 
+                        <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mt-4">
                             <strong>Productividad y Bienestar: Como Gestionar Mejor tu Tiempo </strong>es más que un
                             simple manual de organización; es tu guía para transformar la manera en que vives cada día.
                             Este libro electrónico te proporcionará herramientas prácticas y estrategias probadas que te
-                            permitirán maximizar tu productividad sin sacrificar tu salud mental ni tu felicidad. <br/>
+                            permitirán maximizar tu productividad sin sacrificar tu salud mental ni tu felicidad.
+                        </p>
 
+                        <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mt-4">
                             Descubre como establecer prioridades claras, eliminar la procrastinación y crear un horario
                             flexible que se adapte a tus necesidades, todo mientras te aseguras de que haya espacio para
-                            el descanso, la creatividad y las relaciones personales. <br/>
+                            el descanso, la creatividad y las relaciones personales.
+                        </p>
 
+                        <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mt-4">
                             No dejes que el estrés y la sobrecarga te controlen. Aprende a gestionar tu tiempo de manera
                             consciente y alcanza tus metas con mayor facilidad y satisfacción. ¡Haz de la productividad
-                            una aliada de tu bienestar y transforma tu vida desde hoy! <br/>
+                            una aliada de tu bienestar y transforma tu vida desde hoy!
                         </p>
 
                         <div className="flex justify-center mt-5">
