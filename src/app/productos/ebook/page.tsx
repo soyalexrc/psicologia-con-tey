@@ -240,7 +240,10 @@ export default function Page() {
                     <p className="text-darkBlue text-lg mb-10">Sígueme para descubrir contenido e
                         inspiración diaria.</p>
 
-                    <Button className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] animate-glow">Sigueme en @psicologiacontey</Button>
+                    <Link href="https://www.instagram.com/psicologiacontey" target="_blank">
+                        <Button className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] animate-glow">Sigueme en @psicologiacontey</Button>
+                    </Link>
+
                 </div>
             </div>
 
