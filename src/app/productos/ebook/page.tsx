@@ -1,6 +1,7 @@
 import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import {Metadata} from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
     title: 'Tiempo Inteligente eBook',
@@ -12,7 +13,8 @@ export default function Page() {
             <div className="">
                 <div className='flex flex-col items-center mb-20 p-4'>
                     <p className='font-bold text-xl text-darkBlue'>@psicologiacontey</p>
-                    <p className="text-xl text-darkBlue text-center">Te ayudo a descubrir y alcanzar tu mejor versión.</p>
+                    <p className="text-xl text-darkBlue text-center">Te ayudo a descubrir y alcanzar tu mejor
+                        versión.</p>
                 </div>
                 <div className="relative mb-32">
                     <Image width={1920} height={1080} alt="Imagen de fondo"
@@ -27,12 +29,12 @@ export default function Page() {
                                     ¡Por una vida más saludable y feliz!
                                 </h2>
                                 <div className="w-full my-8 h-[1px] bg-textBrownLighter"></div>
-                                <p className="leading-7">Hola soy Teymar y en <strong> Psicología con Tey</strong>,
+                                <p className="leading-7">Hola, soy Teymar y en <strong> Psicología con Tey</strong>,
                                     tendras un espacio seguro, donde creemos que
                                     cada persona tiene el potencial para transformar su vida y alcanzar un bienestar
                                     pleno.
                                     Mi objetivo es acompañarte en este viaje, brindándote las herramientas y el apoyo
-                                    necesarios para que descubras tu mejor versión.</p>
+                                    necesario para que descubras tu mejor versión.</p>
                             </div>
                         </div>
                         <div className="col-span-12 lg:col-span-1 hidden lg:block"></div>
@@ -52,22 +54,26 @@ export default function Page() {
                         <p className="text-center text-darkBlue text-lg mb-10">Estas son las creencias que pueden estar
                             restringiendo tu progreso...</p>
                         <div className='flex gap-x-24 gap-y-10 justify-center flex-wrap'>
-                            <div className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
+                            <div
+                                className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
                                 <Image alt="check icon" src="/img/ebook/check-icon.png" width={40} height={40}
                                        className="mb-6"/>
                                 <p className="text-darkBlue">No tengo tiempo</p>
                             </div>
-                            <div className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
+                            <div
+                                className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
                                 <Image alt="check icon" src="/img/ebook/check-icon.png" width={40} height={40}
                                        className="mb-6"/>
                                 <p className="text-darkBlue">No logro organizarme</p>
                             </div>
-                            <div className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
+                            <div
+                                className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
                                 <Image alt="check icon" src="/img/ebook/check-icon.png" width={40} height={40}
                                        className="mb-6"/>
                                 <p className="text-darkBlue">No se como empezar</p>
                             </div>
-                            <div className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
+                            <div
+                                className="flex flex-col items-center w-full lg:w-auto border-b-2 pb-4 lg:pb-0 lg:border-none">
                                 <Image alt="check icon" src="/img/ebook/check-icon.png" width={40} height={40}
                                        className="mb-6"/>
                                 <p className="text-darkBlue">No puedo hacerlo sola/o</p>
@@ -95,11 +101,12 @@ export default function Page() {
                     <div className="grid grid-cols-12 lg:gap-20 lg:px-24 items-center">
                         <div className="col-span-12 lg:col-span-6 order-2 lg:order-1">
                             <h3 className="text-textBrownDark mb-4 font-bold text-3xl lg:text-[2.8rem] leading-10 lg:leading-[3.25rem]">Descubre
-                                tu mejor versión con las herramientas y el apoyo necesarios</h3>
+                                tu mejor versión con las herramientas y el apoyo necesario</h3>
                             <p className="text-lg text-darkBlue leading-7">Confía en ti mismo y en este proceso. El
                                 primer paso hacia tu mejor versión comienza ahora. ¡Vamos a hacerlo juntos!</p>
                         </div>
-                        <div className="col-span-12 lg:col-span-6 flex justify-center lg:block order-1 lg:order-2 mb-8 lg:mb-0">
+                        <div
+                            className="col-span-12 lg:col-span-6 flex justify-center lg:block order-1 lg:order-2 mb-8 lg:mb-0">
                             <Image src="/img/ebook/banner-2.jpg" alt="banner 2"
                                    className="w-[380px] lg:w-full rounded-2xl"
                                    width={540} height={370}/>
@@ -113,7 +120,7 @@ export default function Page() {
                     <p className="text-center text-textBrownDark font-bold text-xl">eBook</p>
                 </div>
 
-                <div className="grid grid-cols-12 lg:gap-5 px-4 lg:px-24">
+                <div className="grid grid-cols-12 lg:gap-5 px-4 lg:px-24 items-center">
                     <div className="col-span-12 lg:col-span-6 flex justify-center mb-8 lg:mb-0 lg:block">
                         <Image alt="Productos digitales" src="/img/ebook/digital-product.png" width={530} height={530}
                                className="w-[350px] lg:w-full"/>
@@ -121,7 +128,7 @@ export default function Page() {
                     <div className="col-span-12 lg:col-span-6">
                         <h4 className="font-bold text-textBrownDark text-2xl lg:text-4xl leading-8 lg:leading-[2.5rem]">Productividad
                             y
-                            Bienestar: <br/> Cómo Gestionar Mejor tu Tiempo</h4>
+                            Bienestar: <br/> Como Gestionar Mejor tu Tiempo</h4>
                         <div className="w-full my-4 h-[1px] bg-textBrownLighter"></div>
                         <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mt-4">
                             ¿Te has sentido abrumado por la cantidad de tareas pendientes y la falta de tiempo para
@@ -129,12 +136,12 @@ export default function Page() {
                             gestionar tu tiempo de manera efectiva es la clave para encontrar el equilibrio entre
                             productividad y bienestar personal. <br/>
 
-                            <strong>Productividad y Bienestar: Cómo Gestionar Mejor tu Tiempo </strong>es más que un
+                            <strong>Productividad y Bienestar: Como Gestionar Mejor tu Tiempo </strong>es más que un
                             simple manual de organización; es tu guía para transformar la manera en que vives cada día.
                             Este libro electrónico te proporcionará herramientas prácticas y estrategias probadas que te
                             permitirán maximizar tu productividad sin sacrificar tu salud mental ni tu felicidad. <br/>
 
-                            Descubre cómo establecer prioridades claras, eliminar la procrastinación y crear un horario
+                            Descubre como establecer prioridades claras, eliminar la procrastinación y crear un horario
                             flexible que se adapte a tus necesidades, todo mientras te aseguras de que haya espacio para
                             el descanso, la creatividad y las relaciones personales. <br/>
 
@@ -144,17 +151,96 @@ export default function Page() {
                         </p>
 
                         <div className="flex justify-center mt-5">
-                            <Button
-                                className="bg-bgPurple w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">¡COMPRAR!</Button>
+                            <Link href="https://pay.hotmart.com/Q95102650L?bid=1724622895733" target="_blank">
+                                <Button
+                                    className="bg-bgPurple w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">¡COMPRAR!</Button>
+                            </Link>
+
                         </div>
                     </div>
                 </div>
 
-                <div className="my-10">
-                <h2 className="text-3xl lg:text-[2.5rem] leading-10 lg:leading-[3rem] mb-4 font-bold text-textBrownDark text-center">
+                <div>
+                    <div className="flex flex-col items-center">
+                        <Image alt="Productos digitales" src="/img/ebook/digital-product-2.png" width={1200}
+                               height={600}
+                               className="w-[350px] lg:w-full max-w-[900px]"/>
+
+                        <div className="max-w-[600px] px-4">
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">
+                                <strong>Productividad y Bienestar: Como Gestionar Mejor tu
+                                    Tiempo</strong>, es una
+                                guía esencial para quienes desean maximizar su productividad y alcanzar un verdadero
+                                bienestar. Pero eso no es todo, junto con el eBook, recibirás <strong> 4 bonos
+                                exclusivos</strong> diseñados para potenciar aún más tu éxito y bienestar.
+                            </p>
+
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4"><strong>¿Qué bonos
+                                contiene
+                                este paquete?</strong></p>
+
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">
+                                <strong>Bono 1: Plantillas Imprimibles:</strong> Organiza tu vida de manera fácil y
+                                efectiva con nuestras
+                                plantillas diseñadas para ayudarte a priorizar tus tareas, gestionar tu tiempo y
+                                mantenerte enfocado en lo que realmente importa.
+                            </p>
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">
+                                <strong>Bono 2: Planificador 2024:</strong> Un planificador completo que te ayudará a
+                                establecer metas
+                                claras, planificar tus semanas, meses, y seguir tus progresos de manera consistente.
+                            </p>
+
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">
+                                <strong>Bono 3: Guía de Técnicas de Respiración:</strong> Aprende a manejar el estrés y
+                                mejorar tu
+                                concentración con esta guía práctica que te enseñará técnicas de respiración efectivas
+                                para calmar tu mente y cuerpo.
+                            </p>
+
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">
+                                <strong> Bono 4: Infografía de la Técnica de Respiración Diafragmática:</strong> Una
+                                infografía clara y
+                                fácil de seguir que te mostrará cómo practicar la respiración diafragmática, una técnica
+                                poderosa para reducir la ansiedad y mejorar tu bienestar general.
+                            </p>
+
+                            <p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">
+                                Este paquete completo estará disponible, pero debes estar atento: <strong>la oferta será
+                                limitada </strong> y solo unos pocos tendrán la oportunidad de obtener estos valiosos
+                                recursos
+                                adicionales.
+                            </p>
+
+                            {/*<p className="text-darkBlue text-md lg:text-xl leading-[2rem] mb-4">*/}
+                            {/*    <strong> Imagina lo que podrías lograr con un plan claro, las herramientas para*/}
+                            {/*        gestionar tu*/}
+                            {/*        tiempo con precisión, y las técnicas para mantener tu mente y cuerpo en*/}
+                            {/*        equilibrio.</strong>*/}
+                            {/*</p>*/}
+
+                            <div className="flex justify-center mt-5">
+                                <Link href="https://pay.hotmart.com/Q95102650L?bid=1724622895733" target="_blank">
+                                    <Button
+                                        className="bg-bgPurple w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">COMPRAR
+                                        AHORA</Button>
+                                </Link>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div className="w-full my-4 h-[1px] bg-textBrownLighter"></div>
+
+                <div className="my-10 flex flex-col items-center">
+                    <h2 className="text-3xl lg:text-[2.5rem] leading-10 lg:leading-[3rem] mb-4 font-bold text-textBrownDark">
                         ¡SÍGUEME EN REDES SOCIALES!
                     </h2>
-                    <p className="text-center text-darkBlue text-lg mb-10">Sígueme para descubrir contenido e inspiración diaria.</p>
+                    <p className="text-darkBlue text-lg mb-10">Sígueme para descubrir contenido e
+                        inspiración diaria.</p>
+
+                    <Button className="bg-gradient-to-r from-[#833ab4] via-[#fd1d1d] to-[#fcb045] animate-glow">Sigueme en @psicologiacontey</Button>
                 </div>
             </div>
 

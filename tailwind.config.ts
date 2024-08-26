@@ -73,10 +73,23 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
+        colorChange: {
+          '0%': { background: 'linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)' },
+          '25%': { background: 'linear-gradient(to right, #fd1d1d, #fcb045, #833ab4)' },
+          '50%': { background: 'linear-gradient(to right, #fcb045, #833ab4, #fd1d1d)' },
+          '75%': { background: 'linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)' },
+          '100%': { background: 'linear-gradient(to right, #833ab4, #fd1d1d, #fcb045)' },
+        },
+        glow: {
+          '0%, 100%': { boxShadow: '0 0 10px #833ab4' },
+          '50%': { boxShadow: '0 0 20px #fd1d1d' },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "colorChange": 'colorChange 5s ease-in-out infinite',
+        "glow": 'glow 2s ease-in-out infinite',
       },
     },
   },
