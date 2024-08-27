@@ -249,7 +249,7 @@ export default function Page() {
 
                 <div className="w-full my-4 h-[1px] bg-textBrownLighter"></div>
 
-                <div className="my-10 flex flex-col items-center">
+                <div className="my-10 flex flex-col items-center px-4">
                 <h2 className="text-3xl lg:text-[2.5rem] leading-10 lg:leading-[3rem] mb-4 font-bold text-textBrownDark">
                         ¡SÍGUEME EN REDES SOCIALES!
                     </h2>
