@@ -2,9 +2,10 @@ import Image from "next/image";
 import {Button} from "@/components/ui/button";
 import {Metadata} from "next";
 import Link from "next/link";
+import {ModalBanner} from "@/components/products/ebook/ModalBanner";
 
 export const metadata: Metadata = {
-    title: 'Tiempo Inteligente eBook',
+    title: 'Productividad y Bienestar: Como gestionar mejor tu tiempo',
 }
 
 export default function Page() {
@@ -156,10 +157,16 @@ export default function Page() {
                             una aliada de tu bienestar y transforma tu vida desde hoy!
                         </p>
 
-                        <div className="flex justify-center mt-5">
-                            <Link href="https://pay.hotmart.com/Q95102650L?bid=1724622895733" target="_blank">
+                        <div className="flex flex-col items-center mt-5">
+                            <span className="font-bold text-darkBlue line-through">Antes $ 20.00 </span>
+                            <span className="font-bold text-darkBlue">Ahora $ 12.97</span>
+                            <div className="my-2" />
+                            <Link href="https://pay.hotmart.com/Q95102650L?bid=1724622895733" className="w-full flex justify-center" target="_blank">
                                 <Button
-                                    className="bg-bgPurple w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">¡COMPRAR!</Button>
+                                    variant="purple"
+                                    className="w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">
+                                    ¡COMPRAR!
+                                </Button>
                             </Link>
 
                         </div>
@@ -225,11 +232,14 @@ export default function Page() {
                             {/*        equilibrio.</strong>*/}
                             {/*</p>*/}
 
-                            <div className="flex justify-center mt-5">
-                                <Link href="https://pay.hotmart.com/Q95102650L?bid=1724622895733" target="_blank">
+                            <div className="flex flex-col items-center mt-5">
+                                <span className="font-bold text-darkBlue line-through">Antes $ 20.00 </span>
+                                <span className="font-bold text-darkBlue">Ahora $ 12.97</span>
+                                <div className="my-2"/>
+                                <Link href="https://pay.hotmart.com/Q95102650L?bid=1724622895733" className="w-full flex justify-center" target="_blank">
                                     <Button
-                                        className="bg-bgPurple w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">COMPRAR
-                                        AHORA</Button>
+                                        variant="purple"
+                                        className=" w-full lg:w-[17.25rem] h-[3.75rem] rounded-2xl text-md">¡COMPRAR AHORA!</Button>
                                 </Link>
                             </div>
 
@@ -240,10 +250,10 @@ export default function Page() {
                 <div className="w-full my-4 h-[1px] bg-textBrownLighter"></div>
 
                 <div className="my-10 flex flex-col items-center">
-                    <h2 className="text-3xl lg:text-[2.5rem] leading-10 lg:leading-[3rem] mb-4 font-bold text-textBrownDark">
+                <h2 className="text-3xl lg:text-[2.5rem] leading-10 lg:leading-[3rem] mb-4 font-bold text-textBrownDark">
                         ¡SÍGUEME EN REDES SOCIALES!
                     </h2>
-                    <p className="text-darkBlue text-lg mb-10">Sígueme para descubrir contenido e
+                    <p className="text-darkBlue text-lg mb-10">Para descubrir contenido e
                         inspiración diaria.</p>
 
                     <Link href="https://www.instagram.com/psicologiacontey" target="_blank">
@@ -252,7 +262,7 @@ export default function Page() {
 
                 </div>
             </div>
-
+            <ModalBanner />
         </main>
     )
 }
