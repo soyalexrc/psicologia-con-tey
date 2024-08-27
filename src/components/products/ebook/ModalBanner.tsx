@@ -37,8 +37,8 @@ export function ModalBanner() {
                     <DialogDescription className='text-center text-darkBlue'>
                         <p>Aprovecha este descuento</p>
                         <p className="my-4">Por tiempo limitado ☀️</p>
-                        <p className="font-bold">Transforma tu vida con el eBook "Productividad y Bienestar: Como
-                            Gestionar Mejor tu Tiempo" + Bonos exclusivos</p>
+                        <p className="font-bold">Transforma tu vida con el eBook &quot;Productividad y Bienestar: Como
+                            Gestionar Mejor tu Tiempo&quot; + Bonos exclusivos</p>
 
                         <div className="my-4"/>
 
